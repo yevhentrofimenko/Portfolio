@@ -1,0 +1,35 @@
+.wrapper{
+	text-align: center;
+	font-family: sans-serif;
+}
+.search{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 1%;
+	text-align: left;
+}
+.search p{
+	font-size: 18px;
+	margin: 10px;
+}
+.search input{
+	width: 80%;
+	font-size: 16px;
+	padding: 5px;
+	padding-left:10px;
+}
+.search button{
+	font-size: 16px;
+	background-color: rgba(26,38,30,0.1);
+	border: 0;
+	padding:10px;
+	margin: 30px;
+}
+#map{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	margin: 1%;
+	height: 600px;
+}

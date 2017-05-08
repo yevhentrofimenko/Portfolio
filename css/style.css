@@ -1,0 +1,77 @@
+.name{
+max-width: 500px;
+margin: auto;
+}
+.flexbox{
+	max-width: 1300px;
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-top: 1%;
+}
+.div{
+	margin: 10px;
+	background-size:100%;
+	max-width: 400px;
+	height: 200px;
+	box-shadow:  0px 0px 12px 1px rgba(0, 0, 0, 0.2);
+    webkit-transition: background-size 0.4s linear;
+    -moz-transition: background-size 0.4s linear;
+    -o-transition: background-size 0.4s linear;
+    -ms-transition: background-size 0.4s linear;
+    transition: background-size 0.4s linear;
+}
+.first{
+	background-image: url('../img/1.png');
+}
+.second{
+	background-image: url('../img/2.png');
+}
+.third{
+	background-image: url('../img/3.png');
+}
+.fourth{
+	background-image: url('../img/4.png');
+}
+.fifth{
+	background-image: url('../img/5.png');
+}
+.sixs{
+	background-image: url('../img/6.png');
+}
+.seventh{
+	background-image: url('../img/7.png');
+}
+.eights{
+	background-image: url('../img/8.png');
+}
+
+.div:hover{
+	background-size:110%;
+}
+.color{
+	width: 100%;
+	height: 100%;
+	transition: background 0.2s ease;
+	opacity:0;
+	transition: opacity 0.2s ease;
+	text-align: center;
+}
+.color:hover{
+	background-color: rgba(0,0,0,0.6);
+	opacity:1;
+}
+.color p{
+	max-width: 400px;
+	font-size: 28px;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	margin:auto;
+	border:1px solid white;
+	padding: 12px;
+}
+.color p:first-child{
+	margin: 70px 15px 0 15px;
+}

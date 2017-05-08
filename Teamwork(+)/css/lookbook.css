@@ -1,0 +1,82 @@
+.lookbook{
+	padding-top: 100px;
+}
+.lb__menu a{
+	color: grey;
+}
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.iteM{
+	position: relative;
+}
+.image_wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+    box-shadow: 0 0 1em grey;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	opacity: 0;
+}
+.iteM:hover .image_wrap{
+	opacity: 1;
+}
+.image_focus{
+	text-align: center;
+	margin: auto;
+}
+.item_girl{
+	position: absolute;
+	top: 0;
+	left: 20px;
+	text-align: left;
+}
+.item-girl__title{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	color:aqua;
+	font-size:60px;
+	text-align: right;
+}
+.my_btn{
+	border: 1px  solid black;
+	text-transform: uppercase;
+	color: black;
+}
+.my_btn:hover{
+	background-color:aqua;
+}
+.btn_md{
+	padding: 10px 30px;
+}
+.top_line{
+	height: 1px;
+	background-color: grey;
+	margin:30px 40px 20px 30px;
+}
+.text{
+	position: absolute;
+	top: 0;
+	right: 20px;
+	text-align: right;
+	color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+

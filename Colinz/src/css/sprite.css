@@ -1,0 +1,75 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon {
+  display: inline-block;
+}
+.icon-home-alcoa {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 128px;
+  height: 96px;
+}
+.icon-home-bulb {
+  background-image: url(../img/sprite.png);
+  background-position: -130px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-classroom {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -98px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-excel {
+  background-image: url(../img/sprite.png);
+  background-position: -66px -98px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-foot {
+  background-image: url(../img/sprite.png);
+  background-position: -196px 0px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-login {
+  background-image: url(../img/sprite.png);
+  background-position: -196px -66px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-medal {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -164px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-money {
+  background-image: url(../img/sprite.png);
+  background-position: -66px -164px;
+  width: 64px;
+  height: 64px;
+}
+.icon-home-student {
+  background-image: url(../img/sprite.png);
+  background-position: -132px -164px;
+  width: 64px;
+  height: 64px;
+}

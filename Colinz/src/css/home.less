@@ -1,0 +1,442 @@
+@import "variables";
+
+a, a:hover{
+	text-decoration: none;
+}
+.ma-home__whatido{
+	background-color: @yellow_color;
+	.ma-whatido__left{
+		padding: 60px 5%;
+		h1{
+			font-weight: 900;
+			font-size: 40px;
+		}
+		.ma-whatido__man{
+			position: relative;
+			margin: 25px 0 40px;
+			width: 90%;
+			max-width: 300px;
+			img{
+				width: 100%;
+			}
+			.ma-whatido__social{
+				position: absolute;
+				bottom: 15px;
+				right:15px;
+				font-size: 0;
+				a{
+					padding-left: 20px;
+					color: white;
+					font-size: 16px;
+				}
+				a:hover{
+					color: @yellow_color;
+				}
+			}
+		}
+		p{
+			width: 80%;
+			font-size: 16px;
+			font-weight: 200;
+		}
+	}
+	.ma-whatido__right{
+		padding: 60px 5%;
+		h2{
+			font-weight: 700;
+			font-size: 32px;
+		}
+		.ma-whatido__line{
+			width: 200px;
+			height: 2px;
+			margin-left: 40px;
+			margin-top: 10px;
+			background-color: white;
+		}
+		.ma-whatido__item{
+			margin-top: 25px;
+			font-size: 0;
+			i{
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+			div{
+				display: inline-block;
+				vertical-align: middle;
+				width: 80%;
+				h3{
+					font-weight: 500;
+					font-size: 20px;
+					a{
+						color: @black_color;
+					}
+					a:hover{
+						color: white;
+						text-shadow: 0 0 5px @black_color;
+					}
+				}
+				p{
+					font-weight: 200;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}
+.ma-home__timeline{
+	background: #263238 url(../img/home-businessman.jpg) top no-repeat;
+	.ma-timeline__left{
+		padding: 60px 5%;
+		h2{
+			font-weight: 700;
+			font-size: 32px;
+			color: @yellow_color;
+		}
+		.ma-timeline__line{
+			width: 200px;
+			height: 2px;
+			margin-left: 40px;
+			margin-top: 10px;
+			background-color: white;
+		}
+		p{
+			color: @yellow_color;
+			font-size: 80px;
+			font-weight: 700;
+			text-align: center;
+			margin: 60px 0;
+		}
+		.ma-timeline__years{
+			font-size: 0;
+			text-align: center;
+			div{
+				display: inline-block;
+				text-align: center;
+				padding: 0 20px;
+				.ma-timeline__y{
+					font-size: 20px;
+					font-weight: 400;
+					color: #546e7a;
+				}
+				.ma-timeline__verl{
+					display: inline-block;
+					width: 2px;
+					height: 25px;
+					background-color: #546e7a;
+				}
+				.yaktive{
+					color: @yellow_color;
+				}
+				.vaktive{
+					background-color: @yellow_color;
+				}
+			}
+
+		}
+	}
+	.ma-timeline__right{
+		padding: 60px 5%;
+		i:hover{
+			opacity: .5;
+		}
+		.ma-timeline__title{
+			font-size: 24px;
+			font-weight: 700;
+			color: @yellow_color;
+			margin: 25px 0 15px;
+			span{
+				font-weight: 500;
+			}
+		}
+		.ma-timeline__subtitle{
+			font-size: 20px;
+			font-weight: 400;
+			color: white;
+		}
+		.ma-timeline__text{
+			font-size: 16px;
+			font-weight: 200;
+			color: white;
+			margin: 35px 0;
+		}
+		.ma-timeline__download{
+			font-size: 20px;
+			font-weight: 700;
+			a{
+				color: @yellow_color;
+			}
+			a:hover{
+				color: white;
+			}
+		}
+	}
+}
+.ma-home__social{
+	padding: 60px 0;
+	background-color: #f5f5f5;
+	.row{
+		margin-left: 0;
+		margin-right: 0;
+	.ma-social__item{
+		background-color: #f5f5f5;
+		padding: 15px;
+		a{
+			display: block;
+			padding: 15px;
+			color: @grey_color;
+			i{
+				font-size: 30px;
+			}
+			.ma-social__title{
+				span{
+					font-size: 20px;
+					font-weight: 700;
+					padding-right: 35px;
+				}
+				font-size: 16px;
+				font-weight: 400;
+			}
+			.ma-social__text{
+				font-size: 16px;
+				font-weight: 200;
+				line-height: 1.5;
+			}
+		}
+	}
+	.ma-social__item:hover{
+		a{
+			background-color: white;
+			box-shadow: 0 0 10px @grey_color;
+			i{
+				color: #0077b5;
+			}
+			.ma-social__title{
+				span{
+					color: #0077b5;
+				}
+			}
+		}
+	}
+	}
+}
+.ma-home__travel{
+	background-color:  @yellow_color;
+	padding: 60px 5%;
+	h2{
+		font-weight: 700;
+		font-size: 32px;
+		color: @black_color;
+	}
+	.ma-travel__line{
+		width: 200px;
+		height: 2px;
+		margin-left: 40px;
+		margin-top: 10px;
+		background-color: white;
+		margin-bottom: 45px;
+	}
+	.slick-prev,
+	.slick-next
+	{
+		top: 102%;
+		z-index: 10;
+	}
+	.slick-prev
+	{
+    	left: 25px;
+    }
+    .slick-next
+	{
+    	right: 50px;
+    }
+	.ma-travel__item{
+		position: relative;
+		padding: 10px;
+		.slider__img{
+			display: block;
+		}
+		.ma-travel__hover{
+			display: none;
+			position: absolute;
+			bottom: 15px;
+			left: 15px; 
+			background-color: rgba(0, 0, 0, .3);
+			padding: 10px;
+			.ma-travel__country{
+				margin-bottom: 7px;
+				font-size: 24px;
+				font-weight: 700;
+				color: white;
+			}
+			.ma-travel__date{
+				margin-bottom: 7px;
+				font-size: 16px;
+				font-weight: 400;
+				color: white;
+			}
+			.ma-travel__link{
+				margin-bottom: 0;
+				font-size: 16px;
+				font-weight: 700;
+				a{
+					color: @yellow_color;
+				}
+				a:hover{
+					color: white;
+				}
+				
+			}
+		}
+	}
+	.ma-travel__item:hover{
+		.slider__img{
+			filter: grayscale(100%);
+		}
+		.ma-travel__hover{
+			display: block;
+		}
+	}
+}
+@media screen and (max-width: 830px) {
+	.ma-home__travel{
+		.ma-travel__item{
+			.ma-travel__hover{
+				.ma-travel__country{
+					font-size: 14px;
+				}
+				.ma-travel__date{
+					font-size: 10px;
+				}
+				.ma-travel__link{
+					font-size: 10px;
+				}
+			}
+		}
+	}
+}
+.ma-home__blog{
+	background-color: #f5f5f5;
+	padding: 60px 5%;
+	.ma-blog__left{
+		h2{
+			font-weight: 700;
+			font-size: 32px;
+			color: @black_color;
+		}
+		.ma-blog__line{
+			width: 200px;
+			height: 2px;
+			margin-left: 40px;
+			margin-top: 10px;
+			background-color: @yellow_color;
+			margin-bottom: 45px;
+		}
+	}
+	.ma-blog__right{
+		font-size: 20px;
+		font-weight: 700;
+		a{
+			color: @black_color;
+		}
+		a:hover{
+			color: @yellow_color;
+			text-shadow: 0 0 5px @black_color;
+		}
+	}
+	.ma-blog__item{
+		padding: 15px;
+		
+		.ma-blog__box{
+			height: 550px;
+			background-color: white;
+			padding: 15px;
+			.ma-blog__img{
+				margin: -15px;
+				img{
+					width: 100%;
+				}
+			}
+			h3{
+				font-weight: 700;
+				font-size: 24px;
+				a{
+					color: @black_color;
+				}
+				a:hover{
+					color: @grey_color;
+				}
+			}
+			.ma-blog__date{
+				font-weight: 400;
+				font-size: 16px;
+				color: @grey_color;
+			}
+			.ma-blog__comlike{
+				font-weight: 400;
+				font-size: 16px;
+				color: @grey_color;
+			}
+			.ma-blog__text{
+				font-weight: 200;
+				font-size: 16px;
+				color: @black_color;
+			}
+		}
+		.ma-blog__marbot{
+			margin-bottom: 30px;
+			height: 260px;
+		}
+		.ma-blog__hei{
+			height: 260px;
+		}
+		.ma-blog__bg{
+			background: @black_color url(../img/home-building.jpg) top no-repeat;
+			background-size: cover;
+			h3>a, .ma-blog__date, .ma-blog__comlike, .ma-blog__text{
+				color: white;
+			}
+			h3>a:hover{
+				color: @grey_color;
+				text-shadow: 0 0 5px white;
+			}
+			a{
+				font-weight: 700;
+				font-size: 16px;
+				color: @yellow_color;
+			}
+			a:hover{
+				color: white;
+			}
+		}
+	}
+}
+@media screen and (max-width: 991px) {
+	.ma-home__blog{
+		.ma-blog__item{
+			.ma-blog__box,
+			.ma-blog__marbot,
+			.ma-blog__hei{
+				height: auto;
+			}
+		}
+	}
+}
+.ma-home__achiev{
+	background-color: @yellow_color;
+	padding: 60px 5%;
+	.ma-achiev__item{
+		padding: 15px;
+		text-align: center;
+		h4{
+			font-weight: 700;
+			font-size: 20px;
+			color: @black_color;
+		}
+		p{
+			font-weight: 200;
+			font-size: 16px;
+			color: @black_color;
+		}
+	}
+}
+

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Avenue Fashion Product</title>
+
+	<link rel="stylesheet" href="libs/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap-theme.min.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css"> 
+	<link rel="stylesheet" href="libs/font-awesome.css">
+
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/product.css">
+	<link rel="stylesheet" href="css/header.css">
+	
+	<script src="libs/jquery-3.1.1.min.js"></script>
+	<script src="libs/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<div class="container-fluid bgtopbar">
+			<div class="container topbar">
+				<div class="row">
+					<div class="pull-left topbar__left">
+						<span>Currency : </span>
+						<select class="form-control topbar__select">
+  							<option>GBP</option>
+  							<option>Euro</option>
+  							<option>Dollar</option>
+  						</select>
+					</div>
+					<div class="pull-right topbar__rightf">
+						<div class="btn-group">
+							<button type="button" class="btn dropdown-toggle topbar__basket" data-toggle="dropdown">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								<span>empty</span>
+								<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu topbar__menu" role="menu">
+								<li><a href="product.html">Product</a></li>
+	    						<li><a href="product.html">Product</a></li>
+	    						<li><a href="product.html">Product</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="pull-right topbar__rights">
+						<a href="signin.html" class="btn topbar__link" role="button">Register</a>
+						<a href="signin.html" class="btn topbar__link" role="button">Sign In</a>
+					</div>
+					<div class="pull-right topbar__search">
+						<input type="text" class="form-control" placeholder="Search">
+						<button type="button" class="btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid header">
+			<div class="header__img">
+				<img src="img/Header-2.jpg" alt="" class="img-responsive">
+			</div>
+			<div id="carousel-generic" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+    				<div class="item active">
+      					<img src="img/Header-1.jpg" alt="" class="header__carimage">
+      					<div class="carousel-caption">
+        					<a href="#" class="btn btn-default text-uppercase pull-right carousel__btn" role="button">shop men’s collection</a>
+      					</div>
+    				</div>
+   					<div class="item">
+      					<img src="img/Header-2.jpg" alt="" class="header__carimage">
+      					<div class="carousel-caption carousel__content">
+      						<h1 class="text-uppercase carousel__title">our lookbook</h1>
+      						<p class="text-uppercase carousel__text">Latest Posts - mens & womens</p>
+        				</div>
+    				</div>
+				</div>
+			</div>
+			<div class="header__bar">
+				<a href="index.html" class="pull-left text-uppercase header__logo">avenue fashion</a>
+				<div class="pull-right header__nav">
+					<button type="button" class="btn navbar-toggle colapsed header__gamburger" data-toggle="collapse" data-target="#header__collapse">
+						<i class="fa fa-bars" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="pull-right collapse navbar-collapse" id="header__collapse">
+					<ul class="nav navbar-nav header__dropdown" role="menu">
+    					<li><div class="btn-group">
+							<button type="button" class="btn dropdown-toggle header__btn" data-toggle="dropdown">
+								<span>MENS</span>
+								<span class="caret"></span>
+							</button>
+							<div class="dropdown-menu header__menu" role="menu">
+								<div class="clearfix">
+									<div class="pull-left header__item">
+										<h6 class="text-uppercase">casuals</h6>
+										<br>
+										<a href="#">Jackets</a>
+										<a href="#">Hoodies & Sweatshirts</a>
+										<a href="#">Polo Shirts</a>
+										<a href="#">Sportswear</a>
+										<a href="#">Trousers & Chinos</a>
+										<a href="#">T-Shirts</a>
+									</div>
+									<div class="pull-right header__item">
+										<h6 class="text-uppercase">Formal</h6>
+										<br>
+										<a href="#">Jackets</a>
+										<a href="#">Shirts</a>
+										<a href="#">Suits</a>
+										<a href="#">Trousers</a>
+									</div>
+								</div>
+								<div class="header__banner">
+									<p class="text-uppercase text-center">Autumn sale! up to 50% off </p>
+								</div>
+							</div>
+						</div></li>
+						<li><div class="btn-group">
+							<button type="button" class="btn dropdown-toggle header__btn" data-toggle="dropdown">
+								<span>WOMENS</span>
+								<span class="caret"></span>
+							</button>
+							<div class="dropdown-menu header__menu" role="menu">
+								<div class="clearfix">
+									<div class="pull-left header__item">
+										<h6 class="text-uppercase">casuals</h6>
+										<br>
+										<a href="#">Jackets</a>
+										<a href="#">Hoodies & Sweatshirts</a>
+										<a href="#">Polo Shirts</a>
+										<a href="#">Sportswear</a>
+										<a href="#">Trousers & Chinos</a>
+										<a href="#">T-Shirts</a>
+									</div>
+									<div class="pull-right header__item">
+										<h6 class="text-uppercase">Formal</h6>
+										<br>
+										<a href="#">Jackets</a>
+										<a href="#">Shirts</a>
+										<a href="#">Suits</a>
+										<a href="#">Trousers</a>
+									</div>
+								</div>
+								<div class="header__banner">
+									<p class="text-uppercase text-center">Autumn sale! up to 50% off </p>
+								</div>
+							</div>
+						</div></li>
+						<li><a href="brand.html" class="btn header__link" role="button">THE BRAND</a></li>
+						<li><a href="stores.html" class="btn header__link" role="button">LOCAL STORES</a></li>
+						<li><div class="btn-group">
+							<button type="button" class="btn dropdown-toggle header__btn" data-toggle="dropdown">
+								<span>LOOK BOOK</span>
+								<span class="caret"></span>
+							</button>
+							<div class="dropdown-menu header__menu header__last" role="menu">
+								<div class="clearfix">
+									<div class="pull-left header__item">
+										<h6 class="text-uppercase">Our Lookbooks</h6>
+										<br>
+										<a href="#">Latest Posts (mixed)</a>
+										<a href="#">Men’s Lookbook</a>
+										<a href="#">Women’s Lookbook</a>
+									</div>
+									<div class="pull-right header__item">
+										<h6 class="text-uppercase">Your Lookbook</h6>
+										<br>
+										<a href="#">View and Edit</a>
+										<a href="#">Share</a>
+										<a href="#">Delete</a>
+									</div>
+								</div>
+								<div class="header__banner">
+									<p class="text-uppercase text-center">Autumn sale! up to 50% off </p>
+								</div>
+							</div>
+						</div></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="project-view">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-lg-offset-0 col-md-offset-3 col-sm-offset-2 col-md-6 col-sm-9 col-xs-9 col-xs-offset-2">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src= "img/Product-1.jpg" alt="...">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="img/Product-2.jpg" alt="...">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="img/Product-3.jpg" alt="...">
+                    <div class="carousel-caption"></div>
+                </div>
+                <div class="item">
+                    <img src="img/Product-4.jpg" alt="...">
+                    <div class="carousel-caption"></div>
+                </div>
+            </div>
+
+
+        </div>
+				</div> <!-- закрытие col-lg-6 -->
+				<div class="col-lg-6 col-md-7 col-sm-10 col-xs-12">
+					<p class="ave-p">Ave classic sweatshirt</p>
+									<div class="rows">
+										<div class="col-lg-12 stars-line">
+											<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i>
+											<span class="text-span gr">3 Review(s) &#8;</span>
+											<span class="gr">| &#8;</span>
+											<span class="text-span gr">Add a review</span>
+											<span class="gr">| &#8;</span>
+											<span class="text-span gr">Share:</span>
+											<a href="https://www.facebook.com"><i class="fa fa-facebook gr" aria-hidden="true"></i></a>
+													<a href="http://twitter.com"><i class="fa fa-twitter gr" aria-hidden="true"></i></a>
+													<a href="http://instagram.com"><i class="fa fa-instagram gr" aria-hidden="true"></i></a>
+													<a href="http://pinterest.com"><i class="fa fa-pinterest-p gr" aria-hidden="true"></i></a>
+										   </div> <!-- закрытие col-lg-2 -->
+										   <p class="ave-p-2"><span class="lth">£107</span>  £89.99</p>		
+											<p class="ave-p4 marg-top"><span class="ave-p3">Availability: </span> In stock</p>
+											<p class="ave-p4"><span class="ave-p3">Product code: </span> #499577</p>
+											<p class="ave-p4"> <span class="ave-p3">Tags: </span> Classic, Casual, V-neck, Loose</p>
+											<p class="ave-p-5">Donec sem lorem laoreet tempor un risus vitae, rutrum sodales nibh suspendisse est congue metus nunc, id viverra elit loreti rhoncus quis consecteur es. Donec pulvinar tempor lorem a pretium justo interdum.</p>
+											<ul class="ave-p-5 ul-av5">
+											<li>Elasticated cuffs</li>
+											<li>Casual fit</li>
+											<li>100% Cotton</li>
+											<li>Free shiping</li>
+											</ul>
+											<div class="row">
+								<div class="col-lg-4 marg-top-20">
+									<p class="ave-p3">Color</p>
+												<div class="dropdown uldm">
+										          <a href="#" class="dropdown-toggle ave-p-5" data-toggle="dropdown">Select color <b class="caret"></b></a>
+										          <ul class="dropdown-menu ">
+										            <li><a href="#">Green</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">Red</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">Yellow</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">Blue</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">Black</a></li>
+										          </ul> <!-- закрытие dropdown-menu -->
+										        </div> <!-- закрытие dropdown uldm -->
+										        </div> <!-- закрытие col-lg-4 -->
+								    <div class="col-lg-4 marg-top-20">
+									<p class="ave-p3">Size</p>
+									<div class="dropdown uldm">
+										          <a href="#" class="dropdown-toggle ave-p-5" data-toggle="dropdown">Select size <b class="caret"></b></a>
+										          <ul class="dropdown-menu ">
+										            <li><a href="#">XS</a></li>
+										             <li class="divider"></li>
+										            <li><a href="#">S</a></li>
+										             <li class="divider"></li>
+										            <li><a href="#">M</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">L</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">XL</a></li>
+											    </ul><!-- закрытие dropdown-menu -->
+											    </div> <!-- закрытие dropdown uldm -->
+												</div><!-- закрытие col-lg-4 -->
+									<div class="col-lg-2 marg-top-20">
+									<p class="ave-p3">QTY</p>
+									<div class="dropdown j">
+										          <a href="#" class="dropdown-toggle ave-p-5" data-toggle="dropdown">qty <b class="caret"></b></a>
+										          <ul class="dropdown-menu ">
+										            <li><a href="#">1</a></li>
+										             <li class="divider"></li>
+										            <li><a href="#">2</a></li>
+										             <li class="divider"></li>
+										            <li><a href="#">3</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">4</a></li>
+										            <li class="divider"></li>
+										            <li><a href="#">5</a></li>
+									          </ul><!-- закрытие dropdown-menu -->
+									        </div> <!-- закрытие dropdown uldm -->
+									      </div><!-- закрытие col-lg-4 -->
+										</div> <!-- закрытие rows -->
+										<button class="btn btn-default btn-lg marg-top btnM"><i class="fa faS fa-shopping-cart" aria-hidden="true"></i> Add to card</button>
+                                        <button class="btn btn-default btn-lg mgr marg-top btnM"><i class="fa faS fa-heart-o" aria-hidden="true"></i> Add to lookbok</button>
+                                        <p class="r-p"><i class="fa fa-expand" aria-hidden="true"></i><span class="ave-p3 leftmg">Add to compare</span></p>
+				</div><!-- закрытие col-lg-6 -->
+			</div> <!-- закрытие row -->
+			<div class="rows">
+					    	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  btn-group  marg-top tog">
+							<div class="btn2 navbar wdth col-lg-2 col-md-2 col-xs-12">
+								description
+							</div>
+							<div class="btn2 navbar  wdth col-lg-2 col-md-2 col-xs-12">
+								video
+							</div>
+							<div class="btn2 navbar  wdth col-lg-2 col-md-2 col-xs-12">
+								size&spesics
+							</div>
+							<div class="btn2 navbar  wdth col-lg-2 col-md-3 col-xs-12">
+								Delivery & Returns 
+							</div>
+							<div class="btn2 navbar  wdth col-lg-2 col-md-3 col-xs-12">
+								 Reviews
+							</div>
+						</div>  <!-- закрытие col-lg-12 btn-group -->
+			<div class="rows">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" >
+					<p class="ave-p7 rew">Nunc egestas posuere enim, eu maximus erat posuere eget</p>
+				<p class="ave-p8">Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis. Nulla sapien magna, interdum quis pretium nec, pharetra at felis. Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus lectus. In eget lorem tellus.<br>
+
+				<br>Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi. Etiam neque velit, tristique eget sollicitudin eget, placerat at metus. Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies. Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget neque.</p>
+				</div> <!-- закрытие col-lg-12
+			</div><!--  закрытие rows -->
+					</div> <!-- закрытие rows -->
+		</div> <!-- закрытие section -->
+	</section>
+<footer>
+	<div class="container cont">
+			<div class="rows">
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-10 col-lg-offset-1 col-md-offset-2 col-sm-offset-1 col-xs-offset-1">
+					<p class="footer-p">Information</p>
+					<ul class="footer-p__ul">
+						<li class="footer-p__ul-li"><a href="brand.html">The brand</a></li>
+						<li class="footer-p__ul-li"><a href="stores.html">Local stores</a></li>
+						<li class="footer-p__ul-li"><a href="#">Customer service</a></li>
+						<li class="footer-p__ul-li"><a href="#">Privacy & cookies</a></li>
+						<li class="footer-p__ul-li"><a href="#">Site map</a></li>
+					</ul>
+				</div> 
+				<div class="col-lg-2 col-md-3 col-sm-5 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-xs-offset-1">
+					<p class="footer-p">Why buy from us</p>
+					<ul class="footer-p__ul">
+						<li class="footer-p__ul-li"><a href="#">Shipping & returns</a></li>
+						<li class="footer-p__ul-li"><a href="#">Secure shopping</a></li>
+						<li class="footer-p__ul-li"><a href="#">Testimonials</a></li>
+						<li class="footer-p__ul-li"><a href="#">Award winning</a></li>
+						<li class="footer-p__ul-li"><a href="#">Ethical trading</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-3 col-sm-6 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-1 col-xs-offset-1">
+					<p class="footer-p">Your account</p>
+					<ul class="footer-p__ul">
+						<li class="footer-p__ul-li"><a href="signin.html">Sign in</a></li>
+						<li class="footer-p__ul-li"><a href="signin.html">Register</a></li>
+						<li class="footer-p__ul-li"><a href="#">View cart</a></li>
+						<li class="footer-p__ul-li"><a href="lookbook.html">View your lookbook</a></li>
+						<li class="footer-p__ul-li"><a href="#">Track an order</a></li>
+						<li class="footer-p__ul-li"><a href="#">Update information</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-5 col-xs-10 col-lg-offset-0 col-md-offset-2 col-sm-offset-0 col-xs-offset-1">
+					<p class="footer-p">Lookbook</p>
+					<ul class="footer-p__ul">
+						<li class="footer-p__ul-li"><a href="lookbook.html">Latest posts</a></li>
+						<li class="footer-p__ul-li"><a href="lookbook.html">Men’s lookbook</a></li>
+						<li class="footer-p__ul-li"><a href="lookbook.html">Men’s lookbook</a></li>
+						<li class="footer-p__ul-li"><a href="lookbook.html">Lookbooks RSS feed</a></li>
+						<li class="footer-p__ul-li"><a href="lookbook.html">View your lookbook</a></li>
+						<li class="footer-p__ul-li"><a href="lookbook.html">Delete your lookbook</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-10 col-lg-offset-0 col-md-offset-0 col-sm-offset-4 col-xs-offset-1">
+					<p class="footer-p">contact details</p>
+					<ul class="footer-p__ul">
+						<li class="footer-p__ul-li">Head Office: Avenue Fashion, 180-182 Regent Street, London</li>
+						<li class="footer-p__ul-li">Telephone: 0123-456-789 </li>
+						<li class="footer-p__ul-li">Email: support@yourwebsite.com</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container cont">
+			<div class="rows">
+					<div class="col-lg-5  col-md-5 col-sm-5 col-xs-12 text-center bl " >
+									<p class="bl-p1">award winner</p>
+									<p class="bl-p2">fashion awards 2016</p>
+					</div>
+			
+					<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-lg-offset-2 col-md-offset-2 col-sm-offset-2 col-xs-offset-0 text-center nl " > 
+										<a href="https://www.facebook.com"><i class="fa fa-facebook white" aria-hidden="true"></i></a>
+										<a href="http://twitter.com"><i class="fa fa-twitter white" aria-hidden="true"></i></a>
+										<a href="http://instagram.com"><i class="fa fa-instagram white" aria-hidden="true"></i></a>
+										<a href="http://pinterest.com"><i class="fa fa-pinterest-p white" aria-hidden="true"></i></a>
+					</div>
+				</div>
+		</div>
+
+		<div class="container-fluid nav-footer">
+    	<div class="rows">
+    		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12"><p class="a">© 2016 Avenue Fashion™</p></div>
+    		<div class="col-lg-3 col-lg-offset-3 col-md-3 col-md-offset-2 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0"><p class="a">Design by RobbyDesigns.com</p></div>
+    		<div class="col-lg-2 col-lg-offset-2 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0"><p class="a">Dev by Loremipsum.com</p></div>
+    	</div>
+    </div>
+</footer>
+</body>
+</html>
